@@ -20,7 +20,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Set up Go (Ensure Go 1.20 is used)
+    - name: Set up Go (Ensure Go 1.24 is used)
       uses: actions/setup-go@v4
       with:
         go-version-file: 'go.mod'
